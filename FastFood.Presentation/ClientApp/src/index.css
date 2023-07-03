@@ -1,0 +1,12 @@
+@import "@/assets/styles/normalize.css";
+@import "@/assets/styles/global.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: Comfortaa, serif;
+}
+
+:root{
+    --primary-colir: #f1f1f1;
+}

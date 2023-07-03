@@ -1,0 +1,19 @@
+.productGrid {
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 100px;
+}
+
+.gridContainer {
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.paginateTarget {   
+    width: 70%;
+    height: 10px;
+    position: relative;
+    bottom: 200px;
+}

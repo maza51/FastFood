@@ -1,0 +1,12 @@
+input, select{
+    height: 24px;
+    margin-top: 4px;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    outline: none;
+    padding: 4px 10px;
+}
+
+select{
+    height: 34px;
+}

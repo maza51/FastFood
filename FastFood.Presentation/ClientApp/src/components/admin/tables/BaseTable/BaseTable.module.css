@@ -1,0 +1,36 @@
+.baseTable {
+    min-width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.baseTable thead {
+    border-bottom: 2px solid #716561;
+}
+
+.baseTable thead th {
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 2px solid #716561;
+    padding: 10px;
+}
+
+.baseTable tbody td {
+    font-size: 14px;
+    color: #444441;
+    border-bottom: 1px solid #716561;
+    padding: 10px;
+}
+
+.buttonActionsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    margin: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+}

@@ -1,0 +1,29 @@
+.header{
+}
+
+.body{
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.button{
+    background-color: #6ebd96;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    opacity: 90%;
+    padding: 8px;
+}
+
+.button:hover{
+    opacity: 100%;
+}
+
+.button:disabled{
+    opacity: 50%;
+}

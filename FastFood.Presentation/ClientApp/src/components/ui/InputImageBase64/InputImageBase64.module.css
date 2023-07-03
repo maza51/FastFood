@@ -1,0 +1,25 @@
+.inputImageBase64{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    color: #737373;
+    padding: 8px 12px;
+}
+
+.inputImageBase64 img{
+    width: 200px;
+}
+
+.input{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}

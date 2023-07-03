@@ -1,0 +1,63 @@
+.orderCard{
+    padding: 16px;
+    /*border: 1px solid #bdbdbd;*/
+    /*background-color: rgba(190, 99, 84, 0.05);*/
+    background-color: rgb(246, 246, 246);
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.orderCardReady{
+    padding: 16px;
+    /*border: 1px solid #bdbdbd;*/
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: rgba(110, 189, 150, 0.15);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.buyerCode{
+}
+
+.statusProcessing{
+    color: #fd826e;
+}
+
+.statusReady{
+    color: #6ebd96;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.item{
+    display: flex;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+
+.name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.count{
+    min-width: 30px;
+}
+
+.footer{
+    width: 100%;
+}

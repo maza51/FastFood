@@ -1,0 +1,26 @@
+.buttonCounter{
+    width: 130px;
+    font-size: 14px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 12px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add{
+}
+
+.action{
+    cursor: pointer;
+    padding: 10px 20px;
+    user-select: none;
+}
+
+.textWrapper{
+    display: flex;
+    justify-content: space-between;
+}

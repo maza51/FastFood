@@ -1,0 +1,30 @@
+.sideBar {
+    position: sticky;
+    min-width: 200px;
+    top: 70px;
+    height: 300px;
+    padding-top: 30px;
+}
+
+.item, .selectedItem {
+    border-radius: 12px;
+}
+
+.item:hover, .selectedItem:hover {
+    background-color: #f5f5f5;
+}
+
+.item a, .selectedItem a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 2px;
+}
+
+.selectedItem {
+    background-color: #f5f5f5;
+}

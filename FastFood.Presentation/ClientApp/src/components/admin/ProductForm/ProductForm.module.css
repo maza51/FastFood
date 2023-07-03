@@ -1,0 +1,30 @@
+.productForm {
+    max-width: 500px;
+    min-width: 300px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 24px;
+}
+
+.productForm h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.productForm label {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tooltip {
+    margin: 0 auto;
+}

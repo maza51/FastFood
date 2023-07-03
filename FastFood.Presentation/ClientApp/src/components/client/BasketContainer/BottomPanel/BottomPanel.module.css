@@ -1,0 +1,32 @@
+.bottomPanel{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    border-top: 1px solid;
+    width: 100%;
+    padding: 4px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: margin-right 2s;
+}
+
+.text{
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.button{
+    padding: 8px;
+    background-color: #6ebd96;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    opacity: 90%;
+}
+
+.button:hover{
+    opacity: 100%;
+}
