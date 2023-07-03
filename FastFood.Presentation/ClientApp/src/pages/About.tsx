@@ -2,14 +2,13 @@ import { FC } from "react";
 
 export const About: FC = () => {
 	return (
-		<div style={{ width: "400px", margin: "40px auto" }}>
-			<div style={{ marginBottom: "10px" }}>
-				Это демонстрационное приложение.
-			</div>
-			<div style={{ marginBottom: "30px" }}>
-				Подробнее можно узнать на&nbsp;
+		<div
+			style={{ width: "500px", margin: "80px auto", textAlign: "center" }}
+		>
+			<div style={{ marginBottom: "80px" }}>
+				Описание приложения можно посмотреть на&nbsp;
 				<a href="https://github.com/maza51/FastFood/" target="_blank">
-					GinHub
+					GitHub
 				</a>
 				.
 			</div>
